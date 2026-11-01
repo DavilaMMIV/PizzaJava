@@ -1,0 +1,19 @@
+# Gradle y archivos compilados
+**/.gradle/
+**/build/
+**/bin/
+*.class
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+**/application-local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Directorios del entorno de trabajo
+.agents/
+.aws/
+.codex/
